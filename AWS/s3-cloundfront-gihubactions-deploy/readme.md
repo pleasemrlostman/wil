@@ -45,6 +45,57 @@ aws리전은 가장 가까운 ap-northeast-2로 설정해주자<br><br>
 <br><br>
 <img src="./image/s3-6.png" width="50%" title="s3"/>
 
+---
+
+### 2️⃣ S3(Amazon Simple Storage Service) 버킷 설정 변경 및 정책 설정
+
 버킷이 잘 생성됐다. 이제 해당 버킷을 선택해서 액세서를 퍼블릭으로 설정해주도록 하자 (현재 이미지의 버킷은 이미 퍼블릭으로 수정해둔 상태이다.)
 <br><br>
 <img src="./image/s3-7.png" width="50%" title="s3"/>
+
+버킷을 클릭 후 속성탭으로 이동해서 가장아래의 정적 웹 사이트 호스팅 섹션으로 이동하여 편집을 눌러주도록 하자
+<br><br>
+<img src="./image/s3-8.png" width="50%" title="s3"/>
+
+이후 정적 웹 사이트 호스팅 활성화를 체크해주고 호스팅 유형도 정적 웹 사이트 호스팅으로 체크해주도록 하자 또한 인덱스 문서와 오류 문서를 index.html 으로 작성해주도록 하자 (이번 스터디에서는 React를 배포할 예정이므로 두 개 전부 React를 빌드할 때 나오는 html 파일인 index.html로 작성해 주도록 하자)
+<br><br>
+<img src="./image/s3-9.png" width="50%" title="s3"/>
+
+그 다음 권한탭으로 이동해서 버킷 정책을 설정해주도록 하자 정책은 JSON 타입처럼 작성해주는데 내가 직접 작성하는게 아니라 정책생성기에서 정책을 고른 뒤 생성하면 JSON 파일 처럼 작성된다. 이번 배포에서 정책 생성은 아래 처럼 선택해주면 된다.<br><br>
+<img src="./image/s3-10.png" width="50%" title="s3"/>
+<img src="./image/s3-11.png" width="50%" title="s3"/>
+
+- Select Type of Policy: S3 Bucket Policy
+- Effect: Allow 
+- Principal: * 
+- Actions: GetObject 선택 (버킷 접근 권한)
+- Amazon Resource Name(ARN): '버킷 정책 편집 페이지'의 버킷 ARN을 복사한 후, 뒷부분에 /*을 붙여서 입력.
+
+<img src="./image/s3-12.png" width="50%" title="s3"/>
+
+---
+
+### 2️⃣ S3(Amazon Simple Storage Service)에 파일 업로드 하기
+
+S3 세팅은 일단락 했다. 이제 실제 빌드된 파일을 업로드해야 한다.<br>
+물론 AWS GUI를 이용해서 업로드 하는 방법도 있지만 조금 더 개발자스럽게 AWS CLI를 이용하기로 했다.<br>
+AWS CLI 설치 방법은 AWS에서 잘 설명해주고 있다 [링크](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/getting-started-install.html)<br>
+본인은 mac을 이용해서 스터디를 진행했기 때문에 
+```shell
+$ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+$ sudo installer -pkg AWSCLIV2.pkg -target /
+```
+해당 명령어를 통해 설치 후
+```shell
+$ which aws
+/usr/local/bin/aws 
+$ aws --version
+aws-cli/2.10.0 Python/3.11.2 Darwin/18.7.0 botocore/2.4.5
+```
+해당 명령어를 통해 잘 설치 됐는지 확인했다. (설치가 어려우면 상단 링크를 참조하자)
+
+### 3️⃣ IAM 계정 설정
+
+AWS CLI를 이용해서 업로드 하기 위해서는 설치 후 내 컴퓨터에 AWS configure 설정을 해줘야 한다.<br>
+해당 설정을 위해서는 IAM 계정을 만들어야 하므로 콘솔에 IAM을 검색하고 IAM 페이지로 이동하도록 하자<br><br>
+<img src="./image/s3-13.png" width="50%" title="s3"/>
