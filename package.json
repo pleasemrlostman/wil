@@ -1,0 +1,19 @@
+{
+  "name": "wil",
+  "version": "1.0.0",
+  "description": "새롭게 배운 경험, 공부한 기록 및 리팩토링 과정을 기록하자",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pleasemrlostman/wil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pleasemrlostman/wil/issues"
+  },
+  "homepage": "https://github.com/pleasemrlostman/wil#readme"
+}
