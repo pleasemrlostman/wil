@@ -8,4 +8,4 @@
 
 ### Git
 
-- [Gitmoji]()
+- [Gitmoji](https://github.com/pleasemrlostman/wil/blob/main/Git/Gitmoji/readme.md)
