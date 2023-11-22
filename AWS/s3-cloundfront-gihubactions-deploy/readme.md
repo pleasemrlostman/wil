@@ -99,3 +99,19 @@ aws-cli/2.10.0 Python/3.11.2 Darwin/18.7.0 botocore/2.4.5
 AWS CLI를 이용해서 업로드 하기 위해서는 설치 후 내 컴퓨터에 AWS configure 설정을 해줘야 한다.<br>
 해당 설정을 위해서는 IAM 계정을 만들어야 하므로 콘솔에 IAM을 검색하고 IAM 페이지로 이동하도록 하자<br><br>
 <img src="./image/s3-13.png" width="100%" title="s3"/>
+
+이후 좌측의 사용자 섹션으로 이동하여 사용자 추가를 클릭 해주도록 한다.<br><br>
+<img src="./image/s3-14.png" width="100%" title="s3"/>
+
+사용자 이름을 입력해주고 직접 정책 연결을 선택해준뒤 AmazonS3FullAccess와  CloudFrontFullAccess를 체크 해주고 검토 및 생성 섹션에서 사용자를 생성해준다<br><br>
+<img src="./image/s3-15.png" width="100%" title="s3"/>
+<img src="./image/s3-16.png" width="100%" title="s3"/>
+
+이후 성공적으로 생성되면 해당 IAM 계정을 외부에서 사용할 수 있게 하려면 보안 자격 증명에서 액세스 키를 만들어야 한다. 생성된 사용자를 클릭하여 보안 자격 증명 탭으로 이동한다. <br><br>
+<img src="./image/s3-17.png" width="100%" title="s3"/>
+
+엑세스 키 모범 사례 및 대안은 스터디하면서 두 번째로 찾아온 위기 였는데 검색해보면 무엇을 선택하나 큰 문제는 없지만 각 부분이 어떤 의미를 가지고 있는지는 학습이 필요해 보인다. 우선 이번 스터디에서는 
+AWS 외부에서 실행되는 애플리케이션을 선택했다. (허나 찾아보면 github actions를 위해서 서드 파티 서비스를 사용하는 것 처럼 보인다.) <br><br>
+<img src="./image/s3-18.png" width="100%" title="s3"/>
+
+이후 태그를 설정하고 엑세시 키는 .csv 파일 다운로드 혹은 해당 값들을 기억해두면 된다. 이후 다운이 완료되면 IAM 계정 설정이 완료됐다.
