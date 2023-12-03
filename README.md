@@ -15,5 +15,5 @@
 - [Gitmoji](https://github.com/pleasemrlostman/wil/blob/main/Git/Gitmoji/readme.md)
 
 ### 운영체제
-
+- [운영체제 입문](https://github.com/pleasemrlostman/wil/tree/main/os/introduction-to-the-operating-system)
 ### 네트워크
