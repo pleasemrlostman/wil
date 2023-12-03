@@ -2,7 +2,7 @@
 
 ## 목차
 
-- 운영체제 개요
+- [운영체제 개요](https://github.com/pleasemrlostman/wil/blob/main/os/introduction-to-the-operating-system/0.intro.md)
 - 프로세스와 쓰레드
 - CPU스케줄링
 - 프로세스 동기화
