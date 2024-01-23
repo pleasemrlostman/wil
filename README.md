@@ -5,11 +5,12 @@
 ## 목차
 
 ### React
-- Hook
-    - [Context API + useReducer](https://github.com/pleasemrlostman/wil/blob/main/React/hook/context-api-and-useReducer.md)
-- Libary
-    - [React Hook Form](https://github.com/pleasemrlostman/react-hook-form-docs-kr)
 
+- Hook
+  - [Context API + useReducer](https://github.com/pleasemrlostman/wil/blob/main/React/hook/context-api-and-useReducer.md)
+  - [useTransition + useDeferredValue](https://github.com/pleasemrlostman/wil/blob/main/React/hook/useTransition-and-useDeferredValue.md)
+- Libary
+  - [React Hook Form](https://github.com/pleasemrlostman/react-hook-form-docs-kr)
 
 ### AWS
 
@@ -20,7 +21,11 @@
 - [Gitmoji](https://github.com/pleasemrlostman/wil/blob/main/Git/Gitmoji/readme.md)
 
 ### 운영체제
+
 - [운영체제 입문](https://github.com/pleasemrlostman/wil/tree/main/os/introduction-to-the-operating-system)
+
 ### 네트워크
+
 - [네트워크 입문](https://github.com/pleasemrlostman/wil/tree/main/network/introduction-network)
+
 ### 자료구조
