@@ -14,6 +14,7 @@
 ### AWS
 
 - [S3 + Cloudfront + github actions 배포 과정](https://github.com/pleasemrlostman/wil/tree/main/AWS/s3-cloundfront-gihubactions-deploy)
+- [EC2 + Ngnix 배포과정](https://github.com/pleasemrlostman/wil/tree/main/AWS/ec2-nginx-deploy)
 
 ### Git
 
