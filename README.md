@@ -6,7 +6,7 @@
 
 ### React
 
-- [Suspenses + ErrorBoundary](https://github.com/pleasemrlostman/react-query-and-suspense/tree/main)
+- [Suspense + ErrorBoundary](https://github.com/pleasemrlostman/react-query-and-suspense/tree/main)
 - [Context API + useReducer](https://github.com/pleasemrlostman/wil/blob/main/React/context-api-and-useReducer.md)
 - [useTransition + useDeferredValue](https://github.com/pleasemrlostman/wil/blob/main/React/useTransition-and-useDeferredValue.md)
 - [React Hook Form](https://github.com/pleasemrlostman/react-hook-form-docs-kr)
