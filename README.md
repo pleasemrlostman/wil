@@ -10,7 +10,7 @@
 - [Context API + useReducer](https://github.com/pleasemrlostman/wil/blob/main/React/context-api-and-useReducer.md)
 - [useTransition + useDeferredValue](https://github.com/pleasemrlostman/wil/blob/main/React/useTransition-and-useDeferredValue.md)
 - [React Hook Form](https://github.com/pleasemrlostman/react-hook-form-docs-kr)
-- how react works
+- [how react works](https://github.com/pleasemrlostman/wil/tree/main/React/how-react-works)
   - [Component, Elements and Instances](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/0.component-elements-and-instances.md)
   - [fiber vs stack](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/1.fiber-vs-stack.md)
   - [리액트 패키지의 구성 요소들 및 용어 정의](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/2.define-the-components-and-terms-of-the-react-package.md)
