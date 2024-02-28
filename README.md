@@ -14,6 +14,8 @@
   - [Component, Elements and Instances](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/0.component-elements-and-instances.md)
   - [fiber vs stack](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/1.fiber-vs-stack.md)
   - [리액트 패키지의 구성 요소들 및 용어 정의](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/2.define-the-components-and-terms-of-the-react-package.md)
+  - [render phase 와 commit phase 를 비교하여 Virtual DOM 동작 원리 살펴보기](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/3.compare-render-and-commit-phases-to-understand-how-Virtual-DOM-works.md)
+  - [useState 의 코드가 정의된 곳은 어디일까?](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/4.where-is-the-code-for-useState-defined.md)
 
 ### AWS
 
