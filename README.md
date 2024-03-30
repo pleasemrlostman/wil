@@ -39,3 +39,6 @@
 
 ### 브라우저
 - [브라우저 작동원리](https://github.com/pleasemrlostman/wil/blob/main/browser/how-browser-works.md)
+
+### 기타
+- [마크다운의 코드블록 영역은 어떻게 색상이 칠해질까?](https://github.com/pleasemrlostman/wil/blob/main/etc/how-will-the-code-block-area-of-markdown-be-colored.md)
