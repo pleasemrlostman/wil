@@ -50,4 +50,4 @@
 ### 기타
 
 - [마크다운의 코드블록 영역은 어떻게 색상이 칠해질까?](https://github.com/pleasemrlostman/wil/blob/main/etc/how-will-the-code-block-area-of-markdown-be-colored.md)
-- [지라와 디스코드를 연결하여 자동으로 디스코드에 자동으로 메시지 보내기](https://github.com/pleasemrlostman/wil/blob/main/etc/connect-jira-and-discord.md)
+- [지라와 디스코드를 연결하여 디스코드에 자동으로 메시지 보내기](https://github.com/pleasemrlostman/wil/blob/main/etc/connect-jira-and-discord.md)
