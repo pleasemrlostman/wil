@@ -23,6 +23,8 @@
 - [First NestJS Project](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/00.start.md)
   - [몽고디비와 Nest.js를 어떻게 연결하지?](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/01.how-to-connect-nest-to-mongodb.md)
   - [CI/CD 를 구축해보자 (굉장히 초라한)](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/02.lets-build-cicd.md)
+  - [회원가입 로그인 로직을 작성해보자](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/03.lets-create-a-membership-register-and-login-logic.md)
+  - [토큰 검증과 재발급 로직](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/04.token-verification-and-reissuance-logic.md)
 
 ### AWS
 
