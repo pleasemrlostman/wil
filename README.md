@@ -29,9 +29,9 @@
 ### Flutter
 
 - [GetX]()
-  - [기본 사용법]()
-  - [initialBinding]()
-  - [getPage / 메인페이지 body 구성]()
+  - [기본 사용법](https://github.com/pleasemrlostman/wil/blob/main/Flutter/GetX/0.introduce.md)
+  - [initialBinding](https://github.com/pleasemrlostman/wil/blob/main/Flutter/GetX/1.initialBinding.md)
+  - [getPage / 메인페이지 body 구성](https://github.com/pleasemrlostman/wil/blob/main/Flutter/GetX/2.getpage-main-body.md)
 
 ### AWS
 
