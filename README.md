@@ -26,6 +26,13 @@
   - [회원가입 로그인 로직을 작성해보자](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/03.lets-create-a-membership-register-and-login-logic.md)
   - [토큰 검증과 재발급 로직](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/04.token-verification-and-reissuance-logic.md)
 
+### Flutter
+
+- [GetX]()
+  - [기본 사용법]()
+  - [initialBinding]()
+  - [getPage / 메인페이지 body 구성]()
+
 ### AWS
 
 - [S3 + Cloudfront + github actions 배포 과정](https://github.com/pleasemrlostman/wil/tree/main/AWS/s3-cloundfront-gihubactions-deploy)
