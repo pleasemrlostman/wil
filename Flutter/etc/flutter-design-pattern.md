@@ -1,6 +1,7 @@
 # 디자인패턴
 
 <aside>
+
 💡 해당 강의는 유투버 개발하는남자의 [강의](https://www.youtube.com/watch?v=UJQRiypV6UA)를 듣고 내용을 정리한 글이다.
 
 </aside>
@@ -55,7 +56,7 @@ Pattern
 - 비즈니스 로직은 별도로 분리
 - 화면과 이벤트 별도 관리 CASE
 - MVC 패턴 예시
-  ![Untitled](./image/0.png)
+  ![mvc-flow](./image/0.png)
   - 해당 이미지는 기본적인 MVC 패턴의 흐름이다.
   - 진행순서
     1. 클라이언트가 컨트롤러에 (데이터 여기서 데이터란 JSON 혹은 HTML) 요청을 함
@@ -72,7 +73,7 @@ Pattern
 
 1. **노말패턴**
 
-   ```tsx
+   ```dart
    import 'package:flutter/material.dart';
 
    class NormalView extends StatefulWidget {
@@ -142,7 +143,7 @@ Pattern
 
       1. 모델
 
-         ```tsx
+         ```dart
          class Model {
            int _count = 0;
 
@@ -154,7 +155,7 @@ Pattern
 
       2. 뷰
 
-         ```tsx
+         ```dart
          import 'package:dev_pattern_sample/src/mvc/controller/mvc_controller.dart';
          import 'package:flutter/material.dart';
          import 'package:mvc_pattern/mvc_pattern.dart';
@@ -216,7 +217,7 @@ Pattern
 
       3. 컨트롤러
 
-         ```tsx
+         ```dart
          import 'package:dev_pattern_sample/src/model/model.dart';
          import 'package:mvc_pattern/mvc_pattern.dart';
 
@@ -280,7 +281,7 @@ Pattern
 
    - ViewModel
 
-     ```tsx
+     ```dart
      import 'dart:async';
      import 'package:dev_pattern_sample/src/model/model.dart';
 
@@ -316,7 +317,7 @@ Pattern
 
    - View
 
-     ```tsx
+     ```dart
      import 'package:dev_pattern_sample/src/mvvm/viewmodel/mvvm_viewmodel.dart';
      import 'package:flutter/material.dart';
 
@@ -374,7 +375,7 @@ Pattern
 
    - View
 
-     ```tsx
+     ```dart
      import 'package:dev_pattern_sample/src/mvvm_provider/mvvm_provider_controller.dart';
      import 'package:flutter/material.dart';
      import 'package:provider/provider.dart';
@@ -442,7 +443,7 @@ Pattern
 
    - ViewModel
 
-     ```tsx
+     ```dart
      import 'package:dev_pattern_sample/src/model/model.dart';
      import 'package:flutter/material.dart';
 
@@ -475,7 +476,7 @@ Pattern
 
    - View
 
-     ```tsx
+     ```dart
      import 'package:dev_pattern_sample/src/mvvm_getx/mvvm_getx_controller.dart';
      import 'package:flutter/material.dart';
      import 'package:get/get_state_manager/get_state_manager.dart';
@@ -527,7 +528,7 @@ Pattern
 
    - ViewModel
 
-     ```tsx
+     ```dart
      import 'package:dev_pattern_sample/src/model/model.dart';
      import 'package:get/get.dart';
 
@@ -582,7 +583,7 @@ Pattern
 
 ### GetX 에서는?
 
-![Untitled](./image/1.png)
+![getx-flow](./image/1.png)
 
 - 물론 GetX 공식문서에서는 MVC나 MVVM의 컨셉은 아니라고 말한다.
 
@@ -590,7 +591,7 @@ Pattern
 
 - **View**
 
-  ```tsx
+  ```dart
   import 'package:flutter/material.dart';
   import 'package:flutter_getx_mvvm_sample/src/controller/home_controller.dart';
   import 'package:flutter_getx_mvvm_sample/src/model/random_user.dart';
@@ -684,7 +685,7 @@ Pattern
   }
   ```
 
-  ```tsx
+  ```dart
     Widget _bottomBtn() {
       return Padding(
         padding: const EdgeInsets.all(8.0),
@@ -698,7 +699,7 @@ Pattern
 
 - **Controller**
 
-  ```tsx
+  ```dart
   import 'package:flutter_getx_mvvm_sample/src/model/random_user.dart';
   import 'package:flutter_getx_mvvm_sample/src/model/random_user_simple.dart';
   import 'package:flutter_getx_mvvm_sample/src/repository/random_user_repository.dart';
@@ -730,7 +731,7 @@ Pattern
 
 - Repository
 
-  ```tsx
+  ```dart
   import 'package:flutter_getx_mvvm_sample/src/model/random_user.dart';
   import 'package:flutter_getx_mvvm_sample/src/model/random_user_simple.dart';
   import 'package:http/http.dart' as http;
@@ -786,7 +787,7 @@ Pattern
 
 - Model
 
-  ```tsx
+  ```dart
   class RandomUserSimple {
     final String? thumbnail;
     final String? fullname;
