@@ -27,7 +27,7 @@
   - [토큰 검증과 재발급 로직](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/04.token-verification-and-reissuance-logic.md)
 
 ### Flutter
-
+- [플러터에서의 디자인패턴](https://github.com/pleasemrlostman/wil/blob/main/Flutter/etc/flutter-design-pattern.md)
 - [GetX]()
   - [기본 사용법](https://github.com/pleasemrlostman/wil/blob/main/Flutter/GetX/0.introduce.md)
   - [initialBinding](https://github.com/pleasemrlostman/wil/blob/main/Flutter/GetX/1.initialBinding.md)
