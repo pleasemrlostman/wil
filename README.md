@@ -62,3 +62,4 @@
 - [지라와 디스코드를 연결하여 디스코드에 자동으로 메시지 보내기](https://github.com/pleasemrlostman/wil/blob/main/etc/connect-jira-and-discord.md)
 - [CSS in JS VS CSS in CSS](https://github.com/pleasemrlostman/share-your-favorite-places-front/blob/main/doc/1.css-in-css-and-css-in-js/jh.md)
 - [What is Zod, Yup and Joi?](https://github.com/pleasemrlostman/share-your-favorite-places-front/blob/main/doc/2.schema-validation-library/jh.md)
+- [패키지 매니저란 무엇인가](https://github.com/pleasemrlostman/wil/blob/main/etc/what-is-packagemanager.md)
