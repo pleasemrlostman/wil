@@ -18,6 +18,9 @@
   - [render phase 와 commit phase 를 비교하여 Virtual DOM 동작 원리 살펴보기](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/3.compare-render-and-commit-phases-to-understand-how-Virtual-DOM-works.md)
   - [useState 의 코드가 정의된 곳은 어디일까?](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/4.where-is-the-code-for-useState-defined.md)
 
+### NextJS
+- [넥스트JS에서 SSR을 위해 Tanstack(React) Query를 어떻게 써야할까?](https://github.com/pleasemrlostman/wil/blob/main/Next/tanstack(react)-query.md)
+
 ### NestJS
 
 - [First NestJS Project](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/00.start.md)
