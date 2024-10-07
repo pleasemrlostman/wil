@@ -17,9 +17,13 @@
   - [리액트 패키지의 구성 요소들 및 용어 정의](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/2.define-the-components-and-terms-of-the-react-package.md)
   - [render phase 와 commit phase 를 비교하여 Virtual DOM 동작 원리 살펴보기](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/3.compare-render-and-commit-phases-to-understand-how-Virtual-DOM-works.md)
   - [useState 의 코드가 정의된 곳은 어디일까?](https://github.com/pleasemrlostman/wil/blob/main/React/how-react-works/4.where-is-the-code-for-useState-defined.md)
+- 아티클
+  - [교활한 React 메모리 누수: useCallback과 클로저가 문제를 일으킬 수 있는 방법](https://github.com/pleasemrlostman/wil/blob/main/React/article/sneaky-react-memory-leaks-useCallback/sneaky-react-memory-leaks-useCallback.md)
 
 ### NextJS
+
 - [넥스트JS에서 SSR을 위해 Tanstack(React) Query를 어떻게 써야할까?](https://github.com/pleasemrlostman/wil/blob/main/Next/tanstack(react)-query.md)
+- [Next.js 어플리케이션 네이버클라우드 배포](https://github.com/pleasemrlostman/wil/blob/main/Next/how-to-deploy-naver-colud.md)
 
 ### NestJS
 
@@ -29,7 +33,15 @@
   - [회원가입 로그인 로직을 작성해보자](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/03.lets-create-a-membership-register-and-login-logic.md)
   - [토큰 검증과 재발급 로직](https://github.com/pleasemrlostman/wil/blob/main/Nest/first-nest-project/04.token-verification-and-reissuance-logic.md)
 
+### C
+
+- [0. 학습이유](https://github.com/pleasemrlostman/wil/blob/main/C/0.introduce.md)
+- [30. const](https://github.com/pleasemrlostman/wil/blob/main/C/30.const.md)
+- [31. const 포인터](https://github.com/pleasemrlostman/wil/blob/main/C/31.const-pointer.md)
+- [32. const 포인터 예시](https://github.com/pleasemrlostman/wil/blob/main/C/32.const-pointer-example.md)
+
 ### Flutter
+
 - [플러터에서의 디자인패턴](https://github.com/pleasemrlostman/wil/blob/main/Flutter/etc/flutter-design-pattern.md)
 - [GetX]()
   - [기본 사용법](https://github.com/pleasemrlostman/wil/blob/main/Flutter/GetX/0.introduce.md)
@@ -44,6 +56,17 @@
 ### Git
 
 - [Gitmoji](https://github.com/pleasemrlostman/wil/blob/main/Git/Gitmoji/readme.md)
+
+### 디자인패턴
+
+- [0. 학습이유](https://github.com/pleasemrlostman/wil/blob/main/design-pattern/0.introduce.md)
+- [1. 싱글톤패턴](https://github.com/pleasemrlostman/wil/blob/main/design-pattern/1.singleton.md)
+
+### CS
+
+- [32비트 시스템과 64비트 시스템을 공부하며](https://github.com/pleasemrlostman/wil/blob/main/CS/differences-between-32-bit-and-64-bit-systems/differences-between-32-bit-and-64-bit-systems.md)
+- [컴파일러는 어떻게 문자를 문자로서 인식할까?](https://github.com/pleasemrlostman/wil/blob/main/CS/how-does-a-compiler-recognize-acharacter-as-a-character/how-does-a-compiler-recognize-acharacter-as-a-character.md)
+
 
 ### 운영체제
 
